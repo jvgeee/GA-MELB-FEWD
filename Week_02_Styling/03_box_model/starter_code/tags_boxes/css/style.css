@@ -1,0 +1,31 @@
+h1 {
+  background-color: red;
+  padding: 20px 10px 50px 90px;
+  border: 10px solid black;
+}
+
+p {
+  font-family: 'Indie Flower', cursive;
+  display: inline-block;
+  padding: 20px 15px 40px;
+  background: blue;
+  color: white;
+  border: 5px solid black;
+  width: 45%;
+}
+
+p span {
+  font-family: sans-serif;
+  color: pink;
+}
+
+p span span {
+  color: cyan;
+}
+
+code {
+  background: white;
+  color: black;
+  border: 1px dashed #323232;
+  padding: 3px 10px;
+}
