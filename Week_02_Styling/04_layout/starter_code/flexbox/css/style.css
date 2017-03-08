@@ -1,0 +1,40 @@
+.clearfix:after {
+  content:" ";
+  display:block;
+  clear:both;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  background: red;
+  width: 100%;
+}
+
+#main-content {
+  background: yellow;
+  width: 50%;
+}
+
+aside {
+  background: green;
+  width: 20%;
+}
+
+footer {
+  background: blue;
+  width: 100%;
+}
+
+.placeholder {
+  border: 1px solid black;
+  background: rgba(255,255,255,.6);
+  padding: 20px;
+  margin: 10px;
+}
+
+main section .placeholder {
+  color: red;
+}
