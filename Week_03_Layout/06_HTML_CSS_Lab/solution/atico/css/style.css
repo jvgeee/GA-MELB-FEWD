@@ -1,0 +1,236 @@
+/* 
+    Let's load in Work Sans Light, Regular, Medium and Bold
+    from Google Fonts (https://fonts.google.com/specimen/Work+Sans?selection.family=Work+Sans)
+*/
+
+@font-face {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 200;
+  src: local('Work Sans ExtraLight'), local('WorkSans-ExtraLight'), url(https://fonts.gstatic.com/s/worksans/v2/u_mYNr_qYP37m7vgvmIYZ4joYw3YTyktCCer_ilOlhE.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 200;
+  src: local('Work Sans ExtraLight'), local('WorkSans-ExtraLight'), url(https://fonts.gstatic.com/s/worksans/v2/u_mYNr_qYP37m7vgvmIYZxampu5_7CjHW5spxoeN3Vs.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Work Sans Light'), local('WorkSans-Light'), url(https://fonts.gstatic.com/s/worksans/v2/FD_Udbezj8EHXbdsqLUpl4joYw3YTyktCCer_ilOlhE.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Work Sans Light'), local('WorkSans-Light'), url(https://fonts.gstatic.com/s/worksans/v2/FD_Udbezj8EHXbdsqLUplxampu5_7CjHW5spxoeN3Vs.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Work Sans'), local('WorkSans-Regular'), url(https://fonts.gstatic.com/s/worksans/v2/WB2LNay3rHMH1zU8UJnUHIX0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Work Sans'), local('WorkSans-Regular'), url(https://fonts.gstatic.com/s/worksans/v2/ElUAY9q6T0Ayx4zWzW63VJBw1xU1rKptJj_0jans920.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Work Sans Medium'), local('WorkSans-Medium'), url(https://fonts.gstatic.com/s/worksans/v2/Nbre-U_bp6Xktt8cpgwaJIjoYw3YTyktCCer_ilOlhE.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Work Sans Medium'), local('WorkSans-Medium'), url(https://fonts.gstatic.com/s/worksans/v2/Nbre-U_bp6Xktt8cpgwaJBampu5_7CjHW5spxoeN3Vs.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Work Sans SemiBold'), local('WorkSans-SemiBold'), url(https://fonts.gstatic.com/s/worksans/v2/z9rX03Xuz9ZNHTMg1_ghGYjoYw3YTyktCCer_ilOlhE.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Work Sans SemiBold'), local('WorkSans-SemiBold'), url(https://fonts.gstatic.com/s/worksans/v2/z9rX03Xuz9ZNHTMg1_ghGRampu5_7CjHW5spxoeN3Vs.woff2) format('woff2');
+}
+
+/* 
+    Write Your Own Styles Below Here
+*/
+
+body{
+  font-family: 'Work Sans';
+}
+
+img{
+  max-width:100%;
+}
+
+.header{
+  background-image: url('../img/header-bg.jpg');
+  backgorund-size:cover;
+  background-repeat: no-repeat;
+}
+
+.header ul{
+  float:right;
+  max-width:200px;
+  list-style:none;
+  display:flex;
+  justify-content: space-between;
+}
+
+.header li{
+  padding:0 5px;
+}
+
+.header li a{
+  color: black;
+}
+
+.atico-logo{
+  width:200px;
+}
+
+
+.header-container{
+  max-width:800px;
+  margin: 0 auto;
+  padding: 250px 30px;
+}
+
+.header-container h1{
+  color: #00DFFF;
+  font-size: 60px;
+  font-weight: 100;
+  margin-top: 20px;
+}
+
+
+.stuff{
+  padding: 50px 0;
+  background: rgb(250,249,248);
+}
+
+.row{
+  display:flex;
+  max-width:800px;
+  margin: 0 auto 80px;
+  justify-content: space-between;
+
+}
+
+
+.grid-item{
+  width: 30%;
+}
+
+.grid-item img{
+
+}
+
+.grid-item h4{
+  color: rgb(51,51,51);
+  margin:10px 0;
+}
+
+.grid-item p{
+  color: rgba(51,51,51,0.4);
+}
+
+
+
+.image-row-1{
+  display:flex;
+  justify-content: space-between;
+  padding-bottom:20px;
+}
+
+.left-side{
+  width:50%;
+  margin-right: 40px;
+}
+
+
+.left-side img{
+  margin-bottom: 40px;
+}
+
+
+.right-side{
+  width: 50%;
+}
+
+.right-side img{
+ 
+}
+
+.image-row-2{
+  margin-bottom:40px;
+}
+
+
+footer{
+  text-align:center;
+  background-image: url('../img/footer-bg.jpg');
+  background-size:cover;
+  color: #ffffff;
+  padding: 250px 0;
+}
+
+footer h2{
+  font-weight:100;
+  font-size:42px;
+  margin-bottom:30px;
+}
+
+footer p{
+  font-size:18px;
+  margin-bottom:60px;
+}
+
+footer button{
+  
+  /*
+     I copy and pasted this
+     directly from the source
+     website. 
+
+     Cheating is fine sometimes :)
+  */
+    display: inline-block;
+    padding: 0.8em 1.5em;
+    font-family: "Work Sans","Helvetica Neue",Helvetica,sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.1em;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #ea2150 !important;
+    background: #fff;
+    border: 0;
+    border-bottom: 2px solid rgba(0,223,255,0.2);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+

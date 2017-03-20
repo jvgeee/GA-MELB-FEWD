@@ -1,0 +1,37 @@
+Body:
+
+	Font: 'Work Sans'. I've imported the font in your style.css file for you, but you need to apply the font to the body.
+
+	Note that your headings and paragraph text will have different font weights (200, 300, 400, 500, 600). Play around with font weights for each section and choose one that matches the design!
+
+Features section: 
+
+	Background grey: rgb(250,249,248)
+	Title Color: rgb(51,51,51);
+	Text Color: rgba(51,51,51,0.4);
+
+
+Images Section:
+
+	Use Flexbox on the parent elements, with fixed % widths for the children elements. 
+
+	You can either use <img> tags within your flex children elements, or background images. <img> tags will be easier but less flexible.
+
+Footer Section:
+
+	"Get in touch" heading: Size 60px Font, weight 100, color #fff;
+
+	Footer Button CSS:
+
+	Go to http://atico3.com/ and inspect the button. See how they've implemented the button and use the same CSS!
+
+	Important properties (google the ones you've never used):
+
+		Padding, text-transform, border, font-weight, font, cursor.
+
+	Unimportant Properties (i.e. ignore these):
+
+		-webkit-appearance, -webkit-transition, -moz-transition, transition, -webkit-transform-style, -moz-transform-style, transform-style.
+
+	Basically, ignore all the weird properties we haven't covered yet.
+
