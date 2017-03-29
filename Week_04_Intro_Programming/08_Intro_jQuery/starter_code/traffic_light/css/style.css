@@ -35,3 +35,23 @@ body {
   margin: 25px auto;
   transition: background 500ms;
 }
+
+.bulb.green{
+  background-color: green;
+}
+
+.bulb.orange{
+  background-color: orange;
+}
+
+.bulb.red{
+  background-color: red;
+}
+
+
+
+
+
+
+
+
