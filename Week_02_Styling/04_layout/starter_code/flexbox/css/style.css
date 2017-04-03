@@ -1,8 +1,16 @@
 .clearfix:after {
-  content:" ";
-  display:block;
-  clear:both;
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
 }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
 
 body {
   margin: 0;
@@ -38,3 +46,19 @@ footer {
 main section .placeholder {
   color: red;
 }
+
+.main-container{
+  display:flex;
+  align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+

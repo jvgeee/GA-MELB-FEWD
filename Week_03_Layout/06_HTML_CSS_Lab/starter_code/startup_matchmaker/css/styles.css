@@ -1,0 +1,139 @@
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+Button {
+  text-align: center;
+  padding: 10px 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 18px;
+  border-radius: 3px;
+  border: none;
+  background-color: darkgrey;
+  border-bottom: 2px solid grey;
+  width: 100%;
+}
+
+.yellowButton {
+  background-color: yellow;
+  border-bottom: 2px solid olive;
+}
+
+.strikethrough {
+  text-decoration: line-through;
+}
+
+.yellow-underline {
+  border-bottom: 2px solid yellow;
+}
+
+header {
+  background-color: black;
+  padding: 20px;
+  border-bottom: 2px solid yellow;
+}
+
+header .logo {
+  color: yellow;
+  font-size: 24px;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+header nav .focusItem {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+/* Some comment lalalalala */
+
+section.tagline {
+  text-align: center;
+  padding: 20px 0;
+  font-style: italic;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #aaaaaa;
+  flex-grow: 0;
+}
+
+main {
+  display: flex;
+  justify-content: flex-end;
+  background-image: url(../images/coworking.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+}
+
+aside {
+  width: 300px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  background-color: rgba(255,255,255, 0.75);
+}
+
+aside h1 {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+aside p {
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+section.links {
+  display: flex;
+  justify-content: center;
+  padding: 20px 10px;
+}
+
+section.links h2 {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+section.links p {
+  margin-bottom: 10px;
+  line-height: 1.2;
+}
+
+section.links .column {
+  width: 30%;
+  border-right: 1px solid #dedede;
+  padding: 10px 20px;
+}
+
+section.links .column:last-child {
+  border: none;
+}
+
+footer {
+  background: black;
+  color: white;
+  padding: 20px;
+}
+
+.spacer {
+  flex-grow: 1;
+}

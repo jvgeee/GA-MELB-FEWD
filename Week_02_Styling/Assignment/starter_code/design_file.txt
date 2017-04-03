@@ -32,4 +32,4 @@ Weight: Light, Light Italic, Semibold, Extrabold
 "Sign Up Now!" - extra bold, 12px, 5px border radius
 
 Relaxr - extra bold, 24px
-"Copyright 2016. Relaxr." - 9px, semibold
+"Copyright 2015. Relaxr." - 9px, semibold
