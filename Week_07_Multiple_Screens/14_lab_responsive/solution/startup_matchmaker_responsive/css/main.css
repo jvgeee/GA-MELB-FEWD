@@ -207,7 +207,8 @@ footer {
 		transition:height 1s;
 		overflow: hidden;
 	}
-}
-.menu.open{
-	height:20em;
+
+	.menu.open{
+		height:20em;
+	}
 }
