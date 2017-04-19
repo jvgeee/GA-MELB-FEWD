@@ -208,6 +208,6 @@ footer {
 		overflow: hidden;
 	}
 }
-.slideDown{
+.menu.open{
 	height:20em;
 }
