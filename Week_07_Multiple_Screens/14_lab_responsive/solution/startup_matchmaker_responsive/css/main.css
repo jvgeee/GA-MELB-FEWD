@@ -212,11 +212,13 @@ footer {
 	}
 
 	.menu{
-		display:none;
+		// display:none;
+		height:0;
+		transition: height 1s;
 	}
 
 	.menu.open{
-		display:block;
-		margin-top:60px;
+		// display:block;
+		height: 20em;
 	}
 }
